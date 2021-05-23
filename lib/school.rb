@@ -26,6 +26,8 @@ class School
     return @roster[grade]
   end
   
+  
+  #we want to be sorting the students.
   def sort
     @roster.map do |grades, students| 
       @roster[grades] = students.sort
